@@ -1,0 +1,114 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    background-color: black;
+}
+
+.logo{
+    width: 15%;
+}
+
+.fund{
+    width: 100%;
+}
+
+nav{
+    right: 0;
+    position: absolute;
+    top: 100px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 15px 0 10px;
+    line-height: 1.5;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
+}
+
+.logo_caixa{
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+
+.donutt {
+    width: 120px;
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.tituloloja {
+    clear: left;
+    text-align: center;
+    font-size: 40px;
+}
+
+.area-donutt {
+    width: 940px;
+    text-align: justify;
+    margin: auto;
+    background-color: #FFFFFE;
+}
+
+.titulo-padrao {
+    padding-top: 5%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.map {
+    background: linear-gradient(#FFFFFE, red);
+}
+
+.map p{
+    text-align: center;
+}
+
+.map iframe {
+    margin: auto;
+    display: block;
+}
+
+.beneficios {
+    background-color: red;
+}
+
+.conteudo-beneficios {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens::before {
+    content: "🍩";
+}
+
+.img_beneficios {
+
+}
