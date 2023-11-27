@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburalha</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="line"></div>
+        <div class="container header-area">
+            <div class="logo">
+                <a href="index.html"><img src="assets/images/logo1.png" alt="Logo Starbucks"></a>
+            </div>
+            <div class="header-right">
+            </div>
+        </div>
+    </header>
+       
+    <form action="" method="post">
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+        </div>
+        <div>
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" name="telefone" placeholder="XX XXXXX-XXXX">
+        </div>
+        <div>
+          <label for="endereco">Endereço:</label>
+          <input type="text" id="rua" name="rua" placeholder="Nome da rua">
+          <input type="text" id="numero" name="numero" placeholder="Número da casa">
+          <input type="text" id="bairro" name="bairro" placeholder="Nome do bairro">
+          <input type="text" id="cep" name="cep" placeholder="CEP da rua">
+          <input type="text" id="complemento" name="complemento" placeholder="Complemento">
+        </div>
+        <!-- <div>
+          <label for="hamburguer">Tipo do hambúrguer:</label>
+          <select id="hamburguer" name="hamburguer">
+            <option value="classico">Clássico</option>
+            <option value="frango">Muralha</option>
+            <option value="vegetariano">Vegetariano</option>
+          </select>
+        </div>
+        <div>
+          <label for="pagamento">Forma de pagamento:</label>
+          <select id="pagamento" name="pagamento">
+            <option value="dinheiro">Dinheiro</option>
+            <option value="cartaod">Cartão de Débito</option>
+            <option value="cartaoc">Cartão de Crédito</option>
+            <option value="pix">Pix</option>
+          </select>
+        </div> -->
+        <div>
+          <label for="pagamento">Forma de Pagamento:</label>
+          <input type="text" id="pagamento" name="pagamento" placeholder="Dinheiro, Débito, Crédito ou Pix ">
+        </div>
+
+        <button class="button1" type="submit">Enviar</button>
+      </form>
+
+    <footer>
+        @ 2023 David R Silveira | Muralha <br>
+        Todos os direitos reservados.
+    </footer>
+</body>
+</html>
